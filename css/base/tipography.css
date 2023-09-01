@@ -4,5 +4,11 @@
     font-family: var(--font-press);
     font-size: var(--t-40);
     text-align: center;
-    margin-top: 12%;
+    margin-top: 10%;
+    margin-bottom: 1%;
+}
+
+.text-subt {
+    font-family: var(--font-press);
+    font-size: var(--t-12);
 }

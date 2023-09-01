@@ -15,27 +15,18 @@ header {
     z-index: 1;
 }
 
-
-nav {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
-  
-}
 span.gradient1 {
     background: linear-gradient(90deg,#000 60%, #A60311 40%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    font-family: 'Press Start 2P', sans-serif;
 }
 
+.minhaLogo {
+    font-family: var(--font-press);
+}
 
 .logo {
     width: 30px;
     height: 30px;
 }
-
