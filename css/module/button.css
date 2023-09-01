@@ -4,5 +4,11 @@
     height: 50px;
     border: none;
     border-radius: 10px;
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 10px;
+}
 
+.calcular {
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 10px;
 }
