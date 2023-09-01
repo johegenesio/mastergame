@@ -1,0 +1,15 @@
+:root {
+    --t-12: 12px;
+    --t-18: 18px;
+    --t-24: 24px;
+    --t-48: 48px;
+    --font-press: 'Press Start 2P', sans-serif;
+
+    --cor-de-fundo: #fafafa;
+    --cor-branca: #fbfbfb;
+    --cor-preta: #202020;
+    --red1: #a60311;
+    --red2: #bf1131;
+    --red3: #d97789;
+    --cinza: #f2f2f2;
+}
