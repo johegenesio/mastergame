@@ -10,6 +10,7 @@
 @import url('layout/section_btn.css');
 @import url('layout/section_jogo.css');
 @import url('./layout/header.css');
+@import url('layout/bodyemain.css');
 
 /*module*/
 @import url('module/button.css');
