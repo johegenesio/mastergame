@@ -14,9 +14,3 @@
 /*module*/
 @import url('module/button.css');
 @import url('module/circle.css');
-
-* {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-}
