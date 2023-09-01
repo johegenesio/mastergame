@@ -1,67 +1,67 @@
 .c1 {
-    width: 30vw;
-    height: 30vw;
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
     position: absolute;
-    top: 20%;
-    left: -15vw;
+    top: 28%;
+    left: -150px;
     z-index: 2;
     background-color: var(--cinza);
     display: none;
 }
 
 .c2 {
-    width: 10vw;
-    height: 10vw;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
     position: absolute;
-    top: 15%;
-    left: 4vw;
+    top: 26%;
+    left: 64px;
     z-index: 1;
     background-color: var(--red2);
     display: none;
 }
 
 .c3 {
-    width: 15vw;
-    height: 15vw;
+    width: 120px;
+    height: 120px;
     border-radius: 50%;
     position: absolute;
-    top: 55%;
+    top: 64%;
     left: 1vw;
     z-index: 3;
     background-color: var(--red1);
 }
 
 .c4 {
-    width: 15vw;
-    height: 30vw;
+    width: 150px;
+    height: 300px;
     border-top-left-radius: 50em;
     border-bottom-left-radius: 50em;
     position: absolute;
-    top: 20%;
+    top: 28%;
     right: 0;
     z-index: 2;
     background-color: var(--cinza);
 }
 
 .c5 {
-    width: 15vw;
-    height: 15vw;
+    width: 120px;
+    height: 120px;
     border-radius: 50%;
     position: absolute;
-    top: 15%;
+    top: 24%;
     right: 3vw;
     z-index: 3;
     background-color: var(--red1);
 }
 
 .c6 {
-    width: 8vw;
-    height: 8vw;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
     position: absolute;
-    top: 65%;
+    top: 64%;
     right: 6vw;
     z-index: 3;
     background-color: var(--red2);
