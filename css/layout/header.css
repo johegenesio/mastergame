@@ -1,0 +1,41 @@
+header {
+    height: 70px;
+    border-radius: 20px;
+    padding-left:25px;
+    padding-right:25px;
+
+    position: fixed;
+    top: 16px;
+    left: 16px;
+    right: 16px;
+
+    background-color: #fff;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 2);
+
+    z-index: 1;
+}
+
+
+nav {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  
+}
+span.gradient1 {
+    background: linear-gradient(90deg,#000 60%, #A60311 40%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-family: 'Press Start 2P', sans-serif;
+}
+
+
+.logo {
+    width: 30px;
+    height: 30px;
+}
+
