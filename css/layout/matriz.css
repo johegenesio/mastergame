@@ -1,0 +1,53 @@
+#matriz {
+    width: 100%;
+}
+
+form {
+    display: flex;
+    
+}
+
+form > input {
+    border: 1px solid var(--cor-preta);
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    display: flex;
+    font-family: var(--font-press);
+}
+
+.btl{
+    border-top: none;
+    border-left: none;
+}
+
+.btr {
+    border-top: none;
+    border-right: none;
+}
+
+.bbl {
+    border-bottom: none;
+    border-left: none;
+}
+
+.bbr {
+    border-bottom: none;
+    border-right: none;
+}
+
+.bb {
+    border-bottom: none;
+}
+
+.bt {
+    border-top: none;
+}
+
+.bl {
+    border-left: none;
+}
+
+.br {
+    border-right: none;
+}

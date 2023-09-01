@@ -1,0 +1,20 @@
+footer{
+    background-color:var(--cinza);
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-family: sans-serif;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+#icon{
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+}
+
