@@ -1,0 +1,14 @@
+/* styles.css */
+
+
+button {
+    padding: 30px 80px;
+    background-color: #D97789; /* Cor de fundo do botão */
+    color: #000000; /* Cor do texto do botão */
+    border: none; /* Remove a borda padrão do botão */
+    border-radius: 20px; /* Borda arredondada */
+    cursor: pointer; /* Altera o cursor ao passar o mouse sobre o botão */
+    margin-top: 35%;
+    margin-left: 45%;
+    font-family: var(--font-press);
+}
