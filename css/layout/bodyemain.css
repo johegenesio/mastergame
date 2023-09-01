@@ -4,3 +4,9 @@ main {
     justify-content: center;
     align-items: center;
 }
+
+.calcular {
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 10px;
+    margin-top: 20px;
+}
