@@ -10,11 +10,13 @@ function matriz() {
     const c3 = document.getElementById('c3').value
     const matriz = document.getElementById('matriz')
     const resultado = document.getElementById('resultado')
+    const title = document.getElementById('title')
 
     const calculoAdicao = (a1 * b2 * c3) + (a2 * b3 * c1) + (a3 * b1 * c2)
     const calculoSubtracao = (a3 * b2 * c1) - (a2 * b1 * c3) - (a1 * b3 * c2)
     const calcular = calculoAdicao + calculoSubtracao
     matriz.style.display = 'none'
     resultado.style.display = 'flex'
-    resultado.innerHTML = `<h1 class="jogar3">Resultado</h1><h1 class="jogar2">${calcular}</h1>`
+    title.style.display = 'none'
+    resultado.innerHTML = `<h1 class="jogar3">RESULTADO!</h1><h2 class="text-subt">O VALOR FINAL DO SEU CÁLCULO É:</h2><h1 class="jogar2">${calcular}</h1>`
 }
