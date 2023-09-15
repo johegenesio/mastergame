@@ -10,3 +10,15 @@ main {
     font-size: 10px;
     margin-top: 20px;
 }
+
+#oqe {
+    font-family: 'Poppins';
+
+}
+
+.minhaMatriz {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
