@@ -15,12 +15,10 @@ header {
     z-index: 1;
 }
 
-span.gradient1 {
-    background: linear-gradient(90deg,#000 60%, #A60311 40%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+.gradientGame {
+    color: #a60311;
 }
+
 
 .minhaLogo {
     font-family: var(--font-press);
