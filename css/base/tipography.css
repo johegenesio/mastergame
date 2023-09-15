@@ -4,8 +4,22 @@
     font-family: var(--font-press);
     font-size: var(--t-40);
     text-align: center;
-    margin-top: 10%;
-    margin-bottom: 1%;
+    margin-top: 144px;
+    margin-bottom: 10px;
+}
+
+.jogar2{
+    font-family: var(--font-press);
+    font-size: var(--t-40);
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.jogar3 {
+    font-family: var(--font-press);
+    font-size: var(--t-24);
+    text-align: center;
+    margin-bottom: 32px;
 }
 
 .text-subt {
