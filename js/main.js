@@ -18,5 +18,5 @@ function matriz() {
     matriz.style.display = 'none'
     resultado.style.display = 'flex'
     title.style.display = 'none'
-    resultado.innerHTML = `<h1 class="jogar3">RESULTADO!</h1><h2 class="text-subt">O VALOR FINAL DO SEU CÁLCULO É:</h2><h1 class="jogar2">${calcular}</h1>`
+    resultado.innerHTML = `<h1 class="titulo3">RESULTADO!</h1><h2 class="text-subt">O VALOR FINAL DO SEU CÁLCULO É:</h2><h1 class="titulo2">${calcular}</h1>`
 }
