@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./css/main.css">
     <title>MasterGame | Matriz</title>
     <link rel="stylesheet" href="./css/main.css">
+    <script src="js/main.js"></script>
 </head>
 <body>
     <header>
@@ -28,21 +29,24 @@
             <div class="c1"></div>
             <div class="c2"></div>
             <div class="c3"></div>
+            <div id="resultado">
+                
+            </div>
             <div id="matriz">
-                <form action="">
-                    <input class="btl" type="number" name="" id="">
-                    <input class="bt" type="number" name="" id="">
-                    <input class="btr" type="number" name="" id="">
+                <form action="a">
+                    <input class="btl" type="number" name="" id="a1">
+                    <input class="bt" type="number" name="" id="a2">
+                    <input class="btr" type="number" name="" id="a3">
                 </form>
-                <form action="">
-                    <input class="bl" type="number" name="" id="">
-                    <input type="number" name="" id="">
-                    <input class="br" type="number" name="" id="">
+                <form action="b">
+                    <input class="bl" type="number" name="" id="b1">
+                    <input type="number" name="" id="b2">
+                    <input class="br" type="number" name="" id="b3">
                 </form>
-                <form action="">
-                    <input class="bbl" type="number" name="" id="">
-                    <input class="bb" type="number" name="" id="">
-                    <input class="bbr" type="number" name="" id="">
+                <form action="c">
+                    <input class="bbl" type="number" name="" id="c1">
+                    <input class="bb" type="number" name="" id="c2">
+                    <input class="bbr" type="number" name="" id="c3">
                 </form>
             </div>
             <div class="c4"></div>
@@ -50,7 +54,7 @@
             <div class="c6"></div>
         </section>
         <section id="btn_game">
-            <button class="calculo">CALCULAR</button>
+            <button class="calculo" onclick="matriz()">CALCULAR</button>
         </section>
     </main>
     <footer>
