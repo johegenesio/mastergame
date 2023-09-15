@@ -16,6 +16,5 @@ function matriz() {
     const calcular = calculoAdicao + calculoSubtracao
     matriz.style.display = 'none'
     resultado.style.display = 'flex'
-    resultado.innerHTML = `<h1 class="jogar">${calcular}</h1>`
-
+    resultado.innerHTML = `<h1 class="jogar3">Resultado</h1><h1 class="jogar2">${calcular}</h1>`
 }
