@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./css/main.css">
     <title>MasterGame | Matriz</title>
     <link rel="stylesheet" href="./css/main.css">
+    <script src="js/main.js"></script>
 </head>
 <body>
     <header>
@@ -16,27 +17,44 @@
             <div class="minhaLogo"><span class="gradient1">MasterGame</span></div>
             <ul class="menu">
                 <li>
-                    <span class="meumenu" id="menuIcon">menu</span>
+                    <span class="meumenu" id="menuIcon"><img class="logo" src="./imagens/iconMenu.png" alt=""></span>
                 </li>
             </ul>
         </nav>
     </header>
     <main>
-        <h1>Venha Jogar!</h1>
-        <p>Digite os números parea calcular:</p>
+        <h1 class="jogar">VENHA JOGAR!</h1>
+        <p class="text-subt">DIGITE OS NÚMEROS PARA CALCULAR:</p>
         <section id="jogo">
             <div class="c1"></div>
             <div class="c2"></div>
             <div class="c3"></div>
+            <div id="resultado">
+                
+            </div>
             <div id="matriz">
-
+                <form action="a">
+                    <input class="btl" type="number" name="" id="a1">
+                    <input class="bt" type="number" name="" id="a2">
+                    <input class="btr" type="number" name="" id="a3">
+                </form>
+                <form action="b">
+                    <input class="bl" type="number" name="" id="b1">
+                    <input type="number" name="" id="b2">
+                    <input class="br" type="number" name="" id="b3">
+                </form>
+                <form action="c">
+                    <input class="bbl" type="number" name="" id="c1">
+                    <input class="bb" type="number" name="" id="c2">
+                    <input class="bbr" type="number" name="" id="c3">
+                </form>
             </div>
             <div class="c4"></div>
             <div class="c5"></div>
             <div class="c6"></div>
         </section>
         <section id="btn_game">
-            <button class="calculo">CALCULAR</button>
+            <button class="calculo" onclick="matriz()">CALCULAR</button>
         </section>
     </main>
     <footer>

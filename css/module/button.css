@@ -1,8 +1,10 @@
 .calculo {
-    background-color: #D97789;
-    width: 200px;
-    height: 50px;
+    background-color: var(--red3);
+    width: 224px;
+    height: 56px;
     border: none;
-    border-radius: 10px;
-
+    border-radius: 18px;
+    margin-bottom: 32px;
+    font-family: var(--font-press);
+    font-size: var(--t-12);
 }

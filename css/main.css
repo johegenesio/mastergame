@@ -11,6 +11,8 @@
 @import url('layout/section_jogo.css');
 @import url('./layout/header.css');
 @import url('layout/bodyemain.css');
+@import url('layout/matriz.css');
+@import url('layout/section_resultado.css');
 
 /*module*/
 @import url('module/button.css');
