@@ -11,6 +11,14 @@ main {
     margin-top: 20px;
 }
 
-#oqe{
-    padding-bottom: 10%;
+#oqe {
+    font-family: 'Poppins';
+
+}
+
+.minhaMatriz {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
