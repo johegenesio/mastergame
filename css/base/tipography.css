@@ -26,3 +26,8 @@
     font-family: var(--font-press);
     font-size: var(--t-12);
 }
+
+.text {
+    font-family: var(--font-poppins);
+    font-size: var(--t-14);
+}

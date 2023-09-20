@@ -11,6 +11,8 @@ function matriz() {
     const matriz = document.getElementById('matriz')
     const resultado = document.getElementById('resultado')
     const title = document.getElementById('title')
+    const btn_C = document.getElementById('btn_C')
+    const btn_V = document.getElementById('btn_V')
 
     const calculoAdicao = (a1 * b2 * c3) + (a2 * b3 * c1) + (a3 * b1 * c2)
     const calculoSubtracao = (a3 * b2 * c1) - (a2 * b1 * c3) - (a1 * b3 * c2)
@@ -19,4 +21,10 @@ function matriz() {
     resultado.style.display = 'flex'
     title.style.display = 'none'
     resultado.innerHTML = `<h1 class="titulo3">RESULTADO!</h1><h2 class="text-subt">O VALOR FINAL DO SEU CÁLCULO É:</h2><h1 class="titulo2">${calcular}</h1>`
+    btn_C.style.display = 'none'
+    btn_V.style.display = 'flex'
+}
+
+function voltar() {
+    window.location.reload(true);
 }

@@ -1,9 +1,19 @@
-.calculo {
+.btn {
     background-color: var(--red3);
     width: 224px;
     height: 56px;
     border: none;
     border-radius: 18px;
-    font-family: var(--font-press);
-    font-size: var(--t-12);
+}
+
+.btn_voltar {
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn_calculo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
