@@ -14,10 +14,12 @@
 @import url('layout/matriz.css');
 @import url('layout/section_resultado.css');
 @import url('layout/sobrenos.css');
+@import url('layout/banner.css');
 
 /*module*/
 @import url('module/button.css');
 @import url('module/circle.css');
+
 
 
 

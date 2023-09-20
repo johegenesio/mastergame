@@ -1,0 +1,30 @@
+header {
+    height: 70px;
+    border-radius: 20px;
+    padding-left:25px;
+    padding-right:25px;
+
+    position: fixed;
+    top: 16px;
+    left: 16px;
+    right: 16px;
+
+    background-color: #fff;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 2);
+
+    z-index: 4;
+}
+
+.gradientGame {
+    color: #a60311;
+}
+
+
+.minhaLogo {
+    font-family: var(--font-press);
+}
+
+.logo {
+    width: 24px;
+    height: 24px;
+}
