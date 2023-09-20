@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&family=Press+Start+2P&display=swap');
 
-.jogar{
+.titulo{
     font-family: var(--font-press);
     font-size: var(--t-40);
     text-align: center;
@@ -8,18 +8,18 @@
     margin-bottom: 10px;
 }
 
-.jogar2{
+.titulo2{
     font-family: var(--font-press);
     font-size: var(--t-40);
     text-align: center;
-    margin-bottom: 32px;
+    margin-top: 144px;
 }
 
-.jogar3 {
+.titulo3 {
     font-family: var(--font-press);
-    font-size: var(--t-24);
+    font-size: var(--t-40);
     text-align: center;
-    margin-bottom: 32px;
+    margin-bottom: 10px;
 }
 
 .text-subt {
