@@ -1,26 +1,45 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#000">
     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="./css/main.css">
     <title>MasterGame | Matriz</title>
     <link rel="stylesheet" href="./css/main.css">
-    <script src="js/main.js"></script>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script src="js/main.js" defer></script>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
+
 <body>
     <header>
         <nav>
             <img class="logo" src="imagens/favicon.ico" alt="Logo MasterGame">
             <div class="minhaLogo">Master<span class="gradientGame">Game</span></div>
             <ul class="menu">
-                <li>
-                    <span class="material-symbols-outlined">menu</span>
+                <li id="menuIcon">
+                    <span class="material-symbols-outlined" >menu</span>
                 </li>
             </ul>
+            <div class="menu-content" id="menuContent">
+                <div class="fechar" id="menuFechar">
+                    <span class="material-symbols-outlined">close</span>
+                </div>
+                <div class="caminhos">
+                    <ul class="list_link_menu">
+                        <li class="link_menu">
+                            <a class="text link_menu" href="./home.html">Home<span
+                                    class="material-symbols-outlined">home</span></a>
+                        </li>
+                        <li class="link_menu">
+                            <a class="text link_menu" href="./sobre.html">Sobre<span
+                                    class="material-symbols-outlined">login</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
     <main>
@@ -33,7 +52,7 @@
             <div class="c2"></div>
             <div class="c3"></div>
             <div id="resultado">
-                
+
             </div>
             <div id="matriz">
                 <form action="a">
@@ -66,12 +85,16 @@
         </section>
         <section class="objetivo">
             <h3 class="text-subt">OBJETIVO DO JOGO</h3>
-            <p id="objetivo" class="text">É um jogo onde testa seus conhecimentos sobre o conteúdo, e o estimula de forma lúdica e dinâmica a aprender o conteúdo matrizes, e confirmar se seu resultado, feito no papel, está certo, com a utilização do jogo.</p>
+            <p id="objetivo" class="text">É um jogo onde testa seus conhecimentos sobre o conteúdo, e o estimula de
+                forma lúdica e dinâmica a aprender o conteúdo matrizes, e confirmar se seu resultado, feito no papel,
+                está certo, com a utilização do jogo.</p>
         </section>
     </main>
     <footer>
         <img id="icon" src="imagens/icon-svg.png" alt="">
-        <p class="text">Gabriel Ferreira   Giulia Santiago  Giullia Gentil  Letícia Almeida  João Henrique  Rafael Ferreira  Samuel Yago  Vitória Rodrigues.</p>
+        <p class="text">Gabriel Ferreira Giulia Santiago Giullia Gentil Letícia Almeida João Henrique Rafael Ferreira
+            Samuel Yago Vitória Rodrigues.</p>
     </footer>
 </body>
+
 </html>
