@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,26 +9,44 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
-   <header>
-     <nav>
-        <img class="logo" src="imagens/favicon.ico" alt="Logo MasterGame">
-        <div class="minhaLogo"><span class="gradient1">MasterGame</span></div>
-        <ul class="menu">
-            <li>
-                <span class="meumenu" id="menuIcon"><img class="logo" src="./imagens/iconMenu.png" alt=""></span>
-            </li>
-        </ul>
-     </nav>
-   </header>
-   <div id="sobreNos">
-     <div id="sobre">
-        <h1>Sobre nós</h1>
-     </div>
-     <div id="nos">
-        <p>Fundado em setembro de 2023, o MasterGame é um jogo revolucionário que redefine a experiência de entretenimento digital, proporcionando 
-            uma imersão inigualável e desafiadora para jogadores de todas as idades.</p>
-     </div>
-   </div>
-    
+    <header>
+        <section>
+            <div class="popup" id="popup-1">
+             <div class="overlay"></div>
+                <div class="content">
+
+                </div>
+            </div>
+        </section>
+        <nav>
+            <img class="logo" src="imagens/favicon.ico" alt="Logo MasterGame">
+            <div class="minhaLogo">Master<span class="gradientGame">Game</span></div>
+            <ul class="menu">
+                <li>
+                    <span class="material-symbols-outlined">menu</span>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="sobreNos">
+            <h1 class="titulo">Sobre Nós</h1>
+            <div id="nos">
+                <p>Fundado em setembro de 2023, o MasterGame é um jogo revolucionário que redefine a experiência de entretenimento digital, proporcionando uma imersão inigualável e desafiadora para jogadores de todas as idades.</p>
+            </div>
+        </section>
+        <section>
+            <h1 class="titulo">Entre em contato</h1>
+            <p>Preencha o formulário abaixo para entrar em contato conosco:</p>
+            <form action="a">
+                <label for="nome" >nome</label>
+                <input type="text" class="nome2" id="nome">
+                <label for="Email">Email</label>
+                <input type="email"  class="nome2" id="Email">
+                <label for="Mensagem">Mensagem</label>
+                <input type="text" name="" id="Mensagem">
+            </form>
+        </section>
+    </main>
 </body>
 </html>
