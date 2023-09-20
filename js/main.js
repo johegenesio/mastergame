@@ -1,3 +1,23 @@
+document.getElementById("menuIcon").addEventListener("click", function(event){
+    let menuContent = document.getElementById("menuContent");
+    menuContent.style.display = menuContent.style.display === 'block' ? 'none' : 'block';
+    event.stopPropagation();
+})
+
+document.getElementById('menuFechar').addEventListener('click', function(event){
+    let menuContent = document.getElementById("menuContent");
+    menuContent.style.display = menuContent.style.display === 'none' ? 'block' : 'none';
+    event.stopPropagation();
+})
+
+document.addEventListener('click', function(event){
+    let menuContent = document.getElementById('menuContent');
+    let menuIcon = document.getElementById('menuIcon')
+    if (!menuIcon.contains(event.target) && !menuContent.contains(event.target)) {
+        menuContent.style.display = 'none'
+    }
+})
+
 function matriz() {
     const a1 = document.getElementById('a1').value
     const a2 = document.getElementById('a2').value

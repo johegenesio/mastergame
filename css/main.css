@@ -14,12 +14,17 @@
 @import url('layout/matriz.css');
 @import url('layout/section_resultado.css');
 @import url('layout/sobrenos.css');
+<<<<<<< HEAD
 @import url('layout/banner.css');
+=======
+@import url('layout/section_title.css');
+@import url('layout/section_oqe_obj.css');
+>>>>>>> eac2e5dfcd72e402a5f02ebc76dad93554e4971f
 
 /*module*/
 @import url('module/button.css');
 @import url('module/circle.css');
-
+@import url('module/menu.css');
 
 
 

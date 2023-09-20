@@ -5,27 +5,3 @@ main {
     align-items: center;
     font-family: var(--font-poppins);
 }
-
-.minhaMatriz {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 16px;
-    margin: 48px 0;
-    padding: 24px 24px;
-    border-radius: 16px;
-    background-color: var(--cinza);
-}
-
-.objetivo{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 16px;
-    margin: 48px 0;
-    padding: 24px 24px;
-    border-radius: 16px;
-    background-color: var(--cinza);
-}
