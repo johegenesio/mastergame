@@ -38,3 +38,17 @@
     font-family: var(--font-poppins);
     font-size: var(--t-14);
 }
+
+.jogueJa{
+    font-family: var(--font-press);
+    font-size: var(--t-24);
+    color: white;
+}
+
+.matriz{
+    font-family: var(--font-press);
+    font-size: var(--t-40);
+    color: white;
+   
+
+}
