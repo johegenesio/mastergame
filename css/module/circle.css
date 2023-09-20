@@ -3,7 +3,7 @@
     height: 300px;
     border-radius: 50%;
     position: absolute;
-    top: 28%;
+    top: 200px;
     left: -150px;
     z-index: 2;
     background-color: var(--cinza);
@@ -14,7 +14,7 @@
     height: 80px;
     border-radius: 50%;
     position: absolute;
-    top: 26%;
+    top: 180px;
     left: 64px;
     z-index: 1;
     background-color: var(--red2);
@@ -25,7 +25,7 @@
     height: 120px;
     border-radius: 50%;
     position: absolute;
-    top: 64%;
+    top: 420px;
     left: 1vw;
     z-index: 3;
     background-color: var(--red1);
@@ -37,7 +37,7 @@
     border-top-left-radius: 50em;
     border-bottom-left-radius: 50em;
     position: absolute;
-    top: 28%;
+    top: 200px;
     right: 0;
     z-index: 2;
     background-color: var(--cinza);
@@ -48,7 +48,7 @@
     height: 120px;
     border-radius: 50%;
     position: absolute;
-    top: 24%;
+    top: 180px;
     right: 3vw;
     z-index: 3;
     background-color: var(--red1);
@@ -59,7 +59,41 @@
     height: 80px;
     border-radius: 50%;
     position: absolute;
-    top: 64%;
+    top: 440px;
+    right: 6vw;
+    z-index: 3;
+    background-color: var(--red2);
+}
+
+.c7 {
+    width: 150px;
+    height: 300px;
+    border-top-left-radius: 50em;
+    border-bottom-left-radius: 50em;
+    position: absolute;
+    top: 520px;
+    right: 0;
+    z-index: 2;
+    background-color: var(--cinza);
+}
+
+.c8 {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    position: absolute;
+    top: 480px;
+    right: 3vw;
+    z-index: 3;
+    background-color: var(--red1);
+}
+
+.c9 {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: absolute;
+    top: 740px;
     right: 6vw;
     z-index: 3;
     background-color: var(--red2);

@@ -1,0 +1,7 @@
+#contato {
+    margin-bottom: 48px;
+}
+
+#contato > p {
+    text-align: center;
+}
