@@ -1,9 +1,3 @@
-#title {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 #title > p {
     display: flex;
     justify-content: center;
