@@ -5,7 +5,7 @@
     position: absolute;
     top: 200px;
     left: -150px;
-    z-index: 2;
+    z-index: -2;
     background-color: var(--cinza);
 }
 
@@ -16,7 +16,7 @@
     position: absolute;
     top: 180px;
     left: 64px;
-    z-index: 1;
+    z-index: -1;
     background-color: var(--red2);
 }
 
@@ -27,7 +27,7 @@
     position: absolute;
     top: 420px;
     left: 1vw;
-    z-index: 3;
+    z-index: -3;
     background-color: var(--red1);
 }
 
@@ -39,7 +39,7 @@
     position: absolute;
     top: 200px;
     right: 0;
-    z-index: 2;
+    z-index: -2;
     background-color: var(--cinza);
 }
 
@@ -50,7 +50,7 @@
     position: absolute;
     top: 180px;
     right: 3vw;
-    z-index: 3;
+    z-index: -3;
     background-color: var(--red1);
 }
 
@@ -61,7 +61,7 @@
     position: absolute;
     top: 440px;
     right: 6vw;
-    z-index: 3;
+    z-index: -3;
     background-color: var(--red2);
 }
 
@@ -73,7 +73,7 @@
     position: absolute;
     top: 520px;
     right: 0;
-    z-index: 2;
+    z-index: -2;
     background-color: var(--cinza);
 }
 
@@ -84,7 +84,7 @@
     position: absolute;
     top: 480px;
     right: 3vw;
-    z-index: 3;
+    z-index: -3;
     background-color: var(--red1);
 }
 
@@ -95,6 +95,12 @@
     position: absolute;
     top: 740px;
     right: 6vw;
-    z-index: 3;
+    z-index: -3;
     background-color: var(--red2);
+}
+
+@media (max-width: 720px) {
+    .c1, .c2, .c3, .c4, .c5, .c6, .c7, .c8, .c9 {
+        display: none;
+    }
 }
